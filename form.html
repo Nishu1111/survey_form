@@ -1,0 +1,62 @@
+<DOCTYPE html>
+    <html>
+    <header>
+    <h1 id="title">Student survey form<h1>
+      </header>
+      <body>
+        <p id="description"><b>Fill details in below form</b></p>
+    <form id="survey-form">
+      <div-class="input-headings">
+      <label for="Name" id="name-label"> Name </label>
+      <br>
+      <input id="name"type"text" name="name" placeholder="Richard bing" required> </input>
+     <br>
+      <label for="email" id="email-label">Email</label>
+      <br>
+      <input id="email"type="email"name="email" placeholder="richardbing@gmail.com" required></input>
+    <br>
+      <label for="Gender" id="gender">Gender</label>
+     <br>
+     <input id="gender" type="radio" id="male" name="gender" value="male"> male</lnput>
+      <br>
+    <input id="gender" type="radio" id="female" name="gender" value="female"> female</input> 
+    <br>
+    <input id="others" type="radio" id="others" name="gender" value="others"> others</input> 
+    <br>
+    <label for="number" id="number-label"> Age </label>
+    <br>
+    <input id="number" type="number" name="number" placeholder="18" min="10" max="100" required></input>
+    <br>
+    <label for="dropdowm" id="Rating">How do you rate our course</label>
+    <select id="dropdown">
+      <option value="excellent">Excellent</option>
+      <option value="good">Good</option>
+     <option value="average">Average</option> 
+     <option value="below average">Below Average</option>
+     
+    </select>
+    <br>
+    <br> 
+    <label for="courses" id="course">Which is your favorite course</label>
+    <br>
+    <input id="courses" type="checkbox" id="course" name="course name" value="HTML & CSS"><label for="course name">HTML & CSS</label>
+    <br>
+    <input id="courses" type="checkbox" id="course" name="course name" value="C program"><label for="course name">C program</label>
+    <br>
+    <input id="courses" type="checkbox" id="course" name="course name" value="Java"><label for="course name">Java</label>
+    <br>
+    <input id="courses" type="checkbox" id="course" name="course name" value="Python"><label for="course name">Python</label>
+    <br>
+      <input id="courses" type="checkbox" id="course" name="course name" value="Reactnative"><label for="course name">Reactnative</label>
+    <br>
+    <label id="textarea">Additional comments or suggestions</label>
+    <br>
+    <textarea id="textarea" name="instructions" rows="5" cols="40">
+    </textarea>
+    <br>
+    <input id="submit" type="submit" value="submit" class="submit-button">
+      
+      </div>
+    </form>
+    </body>
+    </html>

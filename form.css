@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body {
+  font-family: poppins;
+  line-height: 1.6;
+  background-color: silver;
+}
+
+form {
+  background: grey;
+  border-radius: 10px;
+  width: 500px;
+  margin: auto;
+}
+
+.submit-button {
+  width: 20%;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  
+}
+
+.input-headings {
+  margin: auto;
+  width: 50%;
+  border: solid;
+  
+}
